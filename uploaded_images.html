@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCODos.Uploaded_Images</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">DOCODos</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="uploaded_images.html">Uploded Images</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="ncontainer">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/2.jpeg" alt="Image 1" data-toggle="modal" data-target="#myModal">
+            </div>
+            <div class="col-sm-6">
+                <img src="images/1.jpeg" alt="Image 2" data-toggle="modal" data-target="#myModal">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/2.jpeg" alt="Image 3" data-toggle="modal" data-target="#myModal">
+            </div>
+            <div class="col-sm-6">
+                <img src="images/3.jpeg" alt="Image 4" data-toggle="modal" data-target="#myModal">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/4.jpeg" alt="Image 5" data-toggle="modal" data-target="#myModal">
+            </div>
+            <div class="col-sm-6">
+                <img src="images/5.jpeg" alt="Image 6" data-toggle="modal" data-target="#myModal">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/6.jpeg" alt="Image 7" data-toggle="modal" data-target="#myModal">
+            </div>
+            <div class="col-sm-6">
+                <img src="images/1.jpeg" alt="Image 8" data-toggle="modal" data-target="#myModal">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img src="" alt="popup" id="modalImage" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script src="behaviour.js"></script>
+</body>
+
+</html>

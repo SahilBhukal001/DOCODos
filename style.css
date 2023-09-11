@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: bold;
+    margin-left: 24px;
+  }
+  
+  .nav-link:hover {
+    color: #0062cc;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .upload-wrapper {
+    border: 1px solid #ccc;
+    padding: 24px;
+    margin-top: 48px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .btn-upload {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 24px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-upload:hover {
+    background-color: #0062cc;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 24px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .form-control-file{
+      margin: 12px 150px ;
+  }
+
+
+  /* Uploaded_Images.css*/
+
+   .ncontainer {
+            border: 1px solid #ddd;
+            width: 600px;
+            height: 600px;
+            overflow-y: scroll;
+            padding: 10px;
+            margin: 20px auto;
+        }
+
+        .ncontainer img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .modal-backdrop {
+            opacity: 0.5 !important;
+        }
